@@ -16,9 +16,6 @@ angular.module('ionic.enablescroll', ['ionic']).directive('ionEnableScroll', fun
     restrict: 'A',
     link: function (scope, element, attrs) {
       var scrollView = $ionicScrollDelegate.getScrollView(scope);
-      function wheelFn (event, delta, deltaX, deltaY) {
-        scrollView.scrollBy(0, deltaY, true);
-      }
       element.bind("keydown keypress", function (event) {
         event.preventDefault();
         switch (event.which) {
