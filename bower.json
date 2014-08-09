@@ -1,0 +1,20 @@
+{
+  "name": "ion-enable-scroll",
+  "version": "0.0.1",
+  "authors": [
+    "raypulver <raymond.pulver_iv@uconn.edu>"
+  ],
+  "description": "A directive to enable arrow key scrolling on Ionic scrollviews.",
+  "main": "ion-enable-scroll.js",
+  "keywords": [
+    "Ionic"
+  ],
+  "license": "Free",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
